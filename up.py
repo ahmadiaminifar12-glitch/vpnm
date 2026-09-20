@@ -1,7 +1,7 @@
 ﻿import sqlite3
 import os
 
-DB_PATH = "bot.db"
+DB_PATH = "/data/bot.db"
 
 def fix_tickets_table():
     """تعمیر کامل جدول tickets - حذف و بازسازی با ساختار صحیح"""
