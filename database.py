@@ -3,7 +3,7 @@ import os
 from config import DEFAULT_SETTINGS, ADMIN_ID
 from datetime import datetime
 
-DB_PATH = "bot.db"
+DB_PATH = "/data/bot.db"
 
 def get_db_connection():
     conn = sqlite3.connect(DB_PATH)
